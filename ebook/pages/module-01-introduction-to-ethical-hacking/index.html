@@ -9,52 +9,103 @@
 </head>
 
 <body>
-    <table id="logo">
-        <tr>
-            <td>🙈</td>
-            <td>🙉</td>
-            <td>🙊</td>
-            <td>🐒</td>
-        </tr>
-    </table>
     <div id="navbar">
         <a href="/index.html">HOME</a>
+        <a href="#">TOOLS</a>
     </div>
     <div id="wrapper">
         <nav id="breadcrumb"></nav>
-        <hr>
-        <br>
+        <div class="pagination">
+            <a href="/index.html">
+                <p>◀ Prev</p>
+            </a>
+            <a href="./topic-01-information-security-overview.html">
+                <p>Next ▶</p>
+            </a>
+        </div>
+
         <main>
-            <!-- <h1>CEH v11 - Ebook</h1> -->
-            <!-- <img src="/assets/images/book-cover-1.png" alt=""> -->
-            <ul class="menu">
-                <ul><a href="/pages/module-01-introduction-to-ethical-hacking/">Học phần 1: Giới thiệu Ethical
-                        Hacking</a>
-                    <li><a
-                            href="/pages/module-01-introduction-to-ethical-hacking/topic-01-information-security-overview.html">Chủ
-                            đề 1: Tổng quan về an ninh thông tin</a></li>
-                    <li>Chủ đề 2</li>
-                    <li>Chủ đề 3</li>
-                    <li>Chủ đề 4</li>
-                    <li>Chủ đề 5</li>
-                </ul>
+            <h1 id="module-title">
+                Học phần 1: Giới thiệu Ethical Hacking
+            </h1>
+
+            <ul class="index">
+                <b>
+
+                    Mục lục
+                </b>
+                <li>
+                    <a
+                        href="/pages/module-01-introduction-to-ethical-hacking/topic-01-information-security-overview.html">
+                        Chủ đề 1: Tổng quan về an ninh thông tin
+                    </a>
+                </li>
+                <li>Chủ đề 2</li>
+                <li>Chủ đề 3</li>
+                <li>Chủ đề 4</li>
+                <li>Chủ đề 5</li>
+            </ul>
+            <h2>Mục tiêu của học phần</h2>
+            <img src="../../assets/images/module-01-introduction-to-ethical-hacking/module1-1.png" alt="">
+            <p>
+                Kẻ tấn công (attacker) xâm nhập vào hệ thống vì nhiều lý do và mục đích khác nhau. Do đó, điều quan
+                trọng là phải hiểu cách mà các hacker độc hại (malicious hackers) tấn công và khai thác hệ thống,
+                cũng như những động cơ có thể đứng sau các cuộc tấn công đó. Như Tôn Tử đã viết trong Binh pháp:
+                <b>
+                    “Biết người biết ta, trăm trận trăm thắng. Biết mình mà không biết người, đánh một thắng một
+                    bại.”
+                </b>
+            </p>
+            <p>
+                Các quản trị viên hệ thống và chuyên gia an ninh cần bảo vệ hạ tầng của mình khỏi các lỗ hổng bị
+                khai thác bằng cách hiểu rõ kẻ thù—tức là các hacker độc hại—những kẻ tìm cách sử dụng chính hạ tầng
+                đó cho các hoạt động phi pháp.
+            </p>
+            <p>
+                Module này bắt đầu bằng cái nhìn tổng quan về bối cảnh an ninh hiện tại và các hướng tấn công (threat
+                vectors) mới nổi. Nội dung cung cấp cái nhìn chuyên sâu về các yếu tố khác nhau của An ninh Thông tin
+                (Information Security). Tiếp theo, module thảo luận về các khái niệm liên quan đến hacking và ethical
+                hacking, và kết thúc bằng phần trình bày ngắn gọn về các biện pháp kiểm soát an ninh thông tin cũng như
+                các đạo luật và quy định liên quan.
+            </p>
+            <ul>
+                <b>Sau khi hoàn thành học phần này, bạn sẽ có thể:</b>
+                <li>Mô tả các yếu tố cấu thành của An ninh Thông tin (Information Security)</li>
+                <li>Giải thích các hình thức tấn công An ninh Thông tin và Chiến tranh Thông tin (Information Security
+                    Attacks và Information Warfare)</li>
+                <li>
+                    Mô tả phương pháp luận Cyber Kill Chain, các TTPs (Tactics, Techniques, and Procedures – Chiến
+                    thuật, Kỹ thuật và Quy trình) và các IoCs (Indicators of Compromise – Chỉ báo bị xâm phạm)
+                </li>
+                <li>Trình bày các khái niệm, loại hình và các giai đoạn của hacking</li>
+                <li>Giải thích các khái niệm về Ethical Hacking và phạm vi áp dụng</li>
+                <li>
+                    Hiểu các biện pháp kiểm soát An ninh Thông tin (chẳng hạn như: phòng thủ nhiều lớp –
+                    defense-in-depth, quản lý rủi ro – risk management, tình báo mối đe dọa mạng – cyber threat
+                    intelligence, mô hình hóa mối đe dọa – threat modeling, quy trình xử lý sự cố – incident management
+                    process, và ứng dụng AI/ML trong bảo mật)
+                </li>
+                <li>
+                    Nắm được các đạo luật và quy định về An ninh Thông tin (Information Security Acts and Laws)
+                </li>
             </ul>
 
-            <div class="pagination">
-                <a href="/index.html">
-                    <p>
-                        <span>◀</span>
-                        Home
-                    </p>
-                </a>
-                <a href="pages/module-01-introduction-to-ethical-hacking/topic-01-information-security-overview.html">
-                    <p>
-                        Tổng quan về An toàn thông tin
-                        <span>▶</span>
-                    </p>
-                </a>
-            </div>
+            <img src="../../assets/images/module-01-introduction-to-ethical-hacking/module1-2.png" alt="">
         </main>
+        <div class="pagination">
+            <a href="/index.html">
+                <p>◀ Prev</p>
+                <p>
+                    Home
+                </p>
+            </a>
+            <a href="./topic-01-information-security-overview.html">
+                <p>Next ▶</p>
+                <p>
+                    Tổng quan về An toàn thông tin
+                </p>
+            </a>
+        </div>
     </div>
     <script src="../../script.js"></script>
 </body>
